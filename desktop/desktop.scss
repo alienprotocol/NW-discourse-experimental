@@ -16,26 +16,31 @@
 }
 
 .topic-status-info {
-  border-top: 1px solid #D2D7DC !important;
+  border-top: 1px solid transparent !important;
 }
 
 .small-action {
-  border-top: 1px solid #D2D7DC !important;
+  border-top: 1px solid transparent !important;
 }
 
 // topic progress bar
 #topic-progress {
-  border-right: 1px solid #DEEFFF;
-  background-color: #DEEFFF;
-  color: #005FB9;
+  border-right: 1px solid #DEEFFF !important;
+  background-color: #DEEFFF !important;
+  color: #005FB9 !important;
 }
 
 // topic body
 .topic-body {
-  padding: 12px;
-  background: #fff;
-  border-radius: 8px;
-  margin-left: 8px;
+  padding: 12px !important;
+  background: #fff !important;
+  border-radius: 8px !important;
+  margin-left: 8px !important;
+  border-top: 1px solid transparent !important;
+}
+
+.topic-avatar {
+  border-top: 1px solid transparent !important;
 }
 
 // topic map box
