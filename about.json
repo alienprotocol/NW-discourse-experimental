@@ -1,0 +1,9 @@
+{
+   "name": "NW font theme component",
+   "about_url": "https://github.com/alienprotocol/discourse-font-theme",
+   "license_url": "https://github.com/alienprotocol/discourse-font-theme/blob/master/LICENSE.txt",
+   "assets": {
+        "gothambook": "assets/GothamBook.woff2",
+        "gothambold": "assets/GothamBold.woff2"
+   }
+}

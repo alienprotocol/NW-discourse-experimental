@@ -1,0 +1,205 @@
+// fonts
+@font-face {
+  font-family: GothamBook;
+  src: url($gothambook) format('woff2')
+}
+
+@font-face {
+  font-family: GothamBold;
+  src: url($gothambold) format('woff2')
+}
+
+// typography
+body {
+  font-family: GothamBook;
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: GothamBold;
+  font-weight: 800;
+}
+
+h3 {
+  color: $primary !important;
+}
+
+p {
+  line-height: 1.75 !important;
+  font-weight: 400 !important;
+}
+
+// links
+a {
+  color: #005FB9;
+
+  &:visited {
+    color: #005FB9;
+  }
+
+  &:hover {
+    color: #005FB9;
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: #005FB9;
+  }
+}
+
+// header
+.d-header {
+  box-shadow: none !important;
+  border: 1px solid #d2d7dc !important;
+}
+
+// base btn + btn danger
+.btn, .btn-danger {
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: .0625em !important;
+}
+
+// btn primary
+.btn-primary {
+  font-size: 12px !important;
+  background: $quaternary !important;
+  text-transform: uppercase !important;
+  letter-spacing: .0625em !important;
+
+  &:hover, &.btn-hover {
+    background: #40AD87 !important;
+  }
+
+  &:active, &.btn-active {
+    font-weight: 500 !important;
+  }
+}
+
+.btn-flat {
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: .0625em !important;
+}
+
+// alert - alert info
+.alert.alert-info {
+  background-color: #deefff !important;
+}
+
+// nav pills
+.nav-pills {
+  > li {
+
+    > a {
+      font-size: 12px !important;
+      text-transform: uppercase !important;
+      letter-spacing: .0625em !important;
+
+      &:hover {
+        color: $secondary !important;
+        background-color: #40AD87 !important;
+      }
+    }
+
+    &.active > a,
+    > a.active {
+      font-weight: 500 !important;
+    }
+  }
+}
+
+// admin dashboard
+.admin-contents table td {
+  border-bottom: 1px solid #d2d7dc;
+  border-top: 1px solid #d2d7dc;
+}
+
+.dashboard-stats, .dashboard-stats.detected-problems {
+  background-color: #F5F6F7 !important;
+}
+
+.dashboard-stats table th {
+  background: #F5F6F7 !important;
+}
+
+// admin controls
+.admin-controls {
+  background-color: #F5F6F7 !important;
+}
+
+.admin-controls .nav.nav-pills li.active a {
+  border-color: $quaternary !important;
+  background-color: $quaternary !important;
+}
+
+// admin nav-stacked
+.nav-stacked {
+  background: #F5F6F7 !important;
+
+  li {
+    border-bottom: 1px solid #F5F6F7 !important;
+  }
+}
+
+// content list box
+.content-list {
+  ul {
+    li {
+      border-bottom: 1px solid #D2D7DC !important;
+
+      &:first-of-type {
+        border-top: 1px solid #D2D7DC !important;
+      }
+
+      a:hover {
+        background-color: #F5F6F7 !important;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// category dropdown
+.select-kit.combo-box.category-drop .category-drop-header {
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+}
+
+// badge text
+.badge-wrapper {
+  font-size: .8125em !important;
+}
+
+// override link text-decoration: drop down menu
+.menu-panel ul.menu-links li a:hover, .menu-panel ul li.heading a:hover {
+  text-decoration: none !important;
+}
+
+// override link text-decoration: message controls box
+.map a:hover {
+  text-decoration: none !important;
+}
+
+// topic footer text
+#topic-footer-buttons .topic-notifications-button .reason, #topic-footer-buttons .pinned-button .reason {
+  line-height: 1.2 !important;
+  font-size: .8125em !important;
+}
+
+// topic select kit + dropdown
+.select-kit.combo-box .select-kit-header {
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+}
+
+.select-kit .select-kit-collection {
+  text-transform: uppercase !important;
+}
+
+// submit panel
+.submit-panel {
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: .0625em !important;
+}

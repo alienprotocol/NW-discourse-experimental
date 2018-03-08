@@ -1,0 +1,63 @@
+// topic list overrides
+.topic-list>tbody>tr:first-of-type {
+  border-top: 1px solid #D2D7DC !important;
+}
+
+.topic-list>tbody>tr {
+  border-bottom: 1px solid #D2D7DC !important;
+}
+
+.topic-list-main-link, .topic-list .main-link {
+  font-size: 1rem !important;
+}
+
+.topic-list .posts-map {
+  font-size: 1rem !important;
+}
+
+.topic-status-info {
+  border-top: 1px solid #D2D7DC !important;
+}
+
+.small-action {
+  border-top: 1px solid #D2D7DC !important;
+}
+
+// topic progress bar
+#topic-progress {
+  border-right: 1px solid #DEEFFF;
+  background-color: #DEEFFF;
+  color: #005FB9;
+}
+
+// topic map box
+.topic-map section {
+  border-top: 1px solid #D2D7DC !important;
+}
+
+.topic-map .buttons .btn {
+  background: #F5F6F7;
+  border-left: 1px solid #D2D7DC !important;
+}
+
+// compose message
+.open .grippie {
+  background: #008255 !important;
+}
+
+// category list
+.category-list tbody tr:first-of-type {
+  border-top: 1px solid #D2D7DC !important;
+}
+
+.category-list tbody tr {
+  border-bottom: 1px solid #D2D7DC !important;
+}
+
+.table-heading {
+  border-bottom: 1px solid #D2D7DC !important;
+}
+
+.latest-topic-list-item {
+  border-bottom: 1px solid #D2D7DC !important;
+}

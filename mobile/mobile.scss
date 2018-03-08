@@ -1,0 +1,39 @@
+// topic post overrides
+.topic-post article {
+  border-top: 1px solid #D2D7DC !important;
+}
+
+.topic-meta-data {
+  font-size: .8125em !important;
+}
+
+.topic-status-info {
+  border-top: 1px solid #D2D7DC !important;
+}
+
+.topic-list>tbody>tr:first-of-type {
+  border-top: 1px solid #D2D7DC !important;
+}
+
+.topic-list>tbody>tr {
+  border-bottom: 1px solid #D2D7DC !important;
+}
+
+.topic-list-main-link, .topic-list .main-link {
+  font-size: 1rem !important;
+}
+
+.topic-list .posts-map {
+  font-size: 1rem !important;
+}
+
+// topic progress bar
+#topic-progress {
+  border-right: 1px solid #DEEFFF;
+  color: #005FB9;
+}
+
+#topic-progress .bg {
+  background-color: #DEEFFF;
+  border-right: 1px solid #DEEFFF;
+}
