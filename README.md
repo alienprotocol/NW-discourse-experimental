@@ -1,3 +1,3 @@
 # NW-discourse-basic
 
-This is a WIP repo for Discourse font theming experiments.
+This is a basic "NerdWallet-themed" Discourse theme.
