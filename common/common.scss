@@ -116,6 +116,11 @@ a {
   border-top: 1px solid #d2d7dc;
 }
 
+.admin-contents {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 .dashboard-stats, .dashboard-stats.detected-problems {
   background-color: #F5F6F7 !important;
 }
@@ -126,7 +131,7 @@ a {
 
 // admin controls
 .admin-controls {
-  background-color: #F5F6F7 !important;
+  background-color: #fff !important;
 }
 
 .admin-controls .nav.nav-pills li.active a {
