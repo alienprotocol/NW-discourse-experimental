@@ -1,3 +1,3 @@
-# NW-discourse-basic
+# NW-discourse-experimental
 
-This is a basic "NerdWallet-themed" Discourse theme.
+This is an experimental "NerdWallet-themed" Discourse theme.
