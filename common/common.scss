@@ -226,6 +226,15 @@ span.first {
   letter-spacing: .0625em !important;
 }
 
+// topic progress slider
+.timeline-container .topic-timeline .timeline-scrollarea {
+  border-color: #008255 !important;
+}
+
+.timeline-container .topic-timeline .timeline-handle {
+  background-color: #008255 !important;
+}
+
 @media all
 and (max-width : 775px) {
 
