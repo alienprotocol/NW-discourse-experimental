@@ -225,3 +225,17 @@ span.first {
   text-transform: uppercase !important;
   letter-spacing: .0625em !important;
 }
+
+@media all
+and (max-width : 775px) {
+
+  .topic-body {
+      width: calc(100% - 55px) !important;
+    }
+
+  .embedded-posts {
+    &.top {
+      width: calc(100% - 64px) !important;
+    }
+  }
+}
