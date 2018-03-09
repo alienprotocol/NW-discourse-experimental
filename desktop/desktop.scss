@@ -30,9 +30,14 @@
 
 // topic progress bar
 #topic-progress {
-  border-right: 1px solid #DEEFFF !important;
-  background-color: #DEEFFF !important;
-  color: #005FB9 !important;
+  border-right: 1px solid #40AD87 !important;
+  background-color: #40AD87 !important;
+  color: #fff !important;
+}
+
+#topic-progress .bg {
+  border-right: 1px solid #008255 !important;
+  background-color: #008255 !important;
 }
 
 // topic body
