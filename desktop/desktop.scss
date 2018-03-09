@@ -49,15 +49,16 @@
   }
 }
 
-//embedded posts
+// embedded posts
 .embedded-posts {
   border: 0px !important;
-
-  .topic-body {
-    width: calc(100% - 78px);
-  }
 }
 
+.embedded-posts .topic-body {
+  width: calc(100% - 78px) !important;
+}
+
+// avatar
 .topic-avatar {
   border-top: 1px solid transparent !important;
 }
