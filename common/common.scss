@@ -88,6 +88,13 @@ a {
   background-color: #deefff !important;
 }
 
+// full width container
+.full-width {
+  background: #fff !important;
+  padding: 12px !important;
+  margin-bottom: 20px !important;
+}
+
 // nav pills
 .nav-pills {
   > li {
@@ -119,10 +126,6 @@ a {
 .admin-contents {
   margin-left: 0 !important;
   margin-right: 0 !important;
-}
-
-.dashboard-stats, .dashboard-stats.detected-problems {
-  background-color: #F5F6F7 !important;
 }
 
 .dashboard-stats table th {
