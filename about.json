@@ -5,5 +5,19 @@
    "assets": {
         "gothambook": "assets/GothamBook.woff2",
         "gothambold": "assets/GothamBold.woff2"
+   },
+   "color_schemes": {
+     "NW-discourse-experimental": {
+       "primary": "000000",
+       "secondary": "ffffff",
+       "tertiary": "005fb9",
+       "quaternary": "008255",
+       "header background": "ffffff",
+       "header primary": "000000",
+       "highlight": "fff8e8",
+       "danger": "de2828",
+       "success": "cbebff",
+       "love": "de2828"
+     }
    }
 }
